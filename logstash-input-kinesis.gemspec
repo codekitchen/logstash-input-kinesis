@@ -27,7 +27,10 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'jar-dependencies', '0.1.7'
   spec.add_runtime_dependency 'ruby-maven', '3.1.1.0.8'
   spec.add_runtime_dependency "maven-tools", '1.0.7'
+  spec.add_runtime_dependency "logstash-core"
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rspec", "~> 3.2.0"
+  spec.add_development_dependency "logstash-codec-json"
 end
